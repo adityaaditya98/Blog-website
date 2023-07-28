@@ -1,0 +1,23 @@
+<%- include('header') -%>
+<%- include('nav') -%>
+<div style="margin: 5%;">
+<form action="/" method="post">
+    <label>Title</label>
+<select class="form-select shadow" aria-label="Default select example" name="Options">
+    <option selected>Open this select menu</option>
+    <option value="Text">Test</option>
+    <option value="TestTitle">Test Title</option>
+    <option value="Day1">Day 1</option>
+    <option value="Day2">Day 2</option>
+    <option value="Day3">Another Post</option>
+  </select>
+
+  <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Post</label>
+    <textarea class="form-control shadow" id="exampleFormControlTextarea1" rows="5" cols="5" name="textArea"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Publish</button>
+  </form>
+</div>
+
+<%- include('footer') -%>
